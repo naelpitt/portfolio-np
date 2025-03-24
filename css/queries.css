@@ -1,0 +1,1786 @@
+/* 
+CALCULATIONS;
+CONTAINER WHITESPACE 4COL: 24 + 24 + 24 + 32 + 32 = 136PX 
+CONTAINER WHITESPACE 3COL: 24 + 24 + 32 + 32 = 112PX
+CONTAINER WHITESPACE 2COL: 24 + 32 + 32 = 88PX
+CONTAINER WHITESPACE 2COL: 24 + 24 + 24 = 72PX
+*/
+
+/* 
+9999PX -> 1200PX 
+COLUMNS: 4(266PX) 
+ROWS:    6(266PX)
+*/
+
+/* 
+1200PX -> 1000PX 
+COLUMNS: 4(216PX) 
+ROWS:    6(216PX) 
+CHANGELOG:  DONE
+*/
+@media (max-width: 1199px) {
+  /* BODY */
+  .container {
+    max-width: 1000px;
+  }
+  .grid {
+    grid-template-columns: repeat(4, 216px);
+    grid-template-rows: repeat(6, 216px);
+  }
+  .heading-secondary {
+    font-size: 23px;
+    margin-bottom: 16px;
+  }
+  .subheading {
+    font-size: 11.5px;
+  }
+
+  /* HEADER */
+  .header {
+    max-width: 1000px;
+  }
+  .filters-list {
+    font-size: 14.5px;
+  }
+  .nav-cta {
+    font-size: 14.5px;
+  }
+
+  /* INTRODUCTION */
+  .intro-heading {
+    font-size: 38px;
+  }
+  .intro-subheading {
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: -6px;
+  }
+  .intro-text {
+    font-size: 13px;
+    width: 48ch;
+  }
+  .intro-text--placeholder-margin {
+    margin-bottom: 148px;
+  }
+  .intro-btn {
+    margin-top: 18px;
+  }
+  .intro-cta {
+    font-size: 13.5px;
+    padding: 6px 12px;
+  }
+
+  /* MAP */
+  body {
+    --mapbox-zoom: 11.25;
+  }
+
+  /* PHOTOS */
+  .photo {
+    width: 216px;
+    height: 216px;
+  }
+
+  /* skill */
+  .filters-secondary {
+    margin-bottom: 20px;
+  }
+  .filters-container-secondary {
+    padding: 3px 4px 3px 4px;
+  }
+  .filter-secondary {
+    padding: 4px 7px;
+  }
+  .filter-list-secondary {
+    font-size: 13px;
+  }
+  .running-statistic {
+    font-size: 13px;
+    margin-bottom: 14px;
+  }
+
+  /* LEARNING */
+  .learning-container {
+    padding: 10px 0;
+  }
+  .learning-header {
+    margin-bottom: 10px;
+  }
+  .learning-text-container {
+    width: 28ch;
+  }
+  .learning-container:first-of-type {
+    padding: 0 0 10px 0;
+  }
+  .learning-container:last-of-type {
+    padding: 10px 0 0 0;
+  }
+  .learning-course {
+    font-size: 13px;
+  }
+  .learning-status {
+    font-size: 10px;
+  }
+
+
+
+  /* ROTATION */
+  .proj-view {
+    font-size: 20px;
+  }
+  .view-image {
+    width: 196px;
+    height: 110px;
+  }
+
+  /* PROJECTS */
+  .project-logo {
+    height: 25px;
+    width: 25px;
+  }
+  .project-preview-container {
+    height: 200px;
+    width: 152px;
+  }
+  .project-preview-image {
+    transform: translate(-57px);
+  }
+  .project-btn {
+    margin-top: 8px;
+  }
+  .project-cta {
+    font-size: 13.5px;
+    padding: 6px 12px;
+  }
+
+  /* clock */
+  .clock-container {
+    width: 16px;
+    height: 16px;
+    opacity: var(--card-opacity)
+  }
+  .clock-time {
+    font-size: 3.5px;
+    width: 10ch;
+  }
+  .clock-day {
+    font-size: 3.5px;
+    width: 10ch;
+  }
+  .clock-date {
+    font-size: 3.5px;
+    width: 10ch;
+  }
+  .clock-greeting {
+    font-size: 3.5px;
+    width: 10ch;
+  }
+
+
+/* 
+1000PX --> 800PX 
+COLUMNS: 3(229PX) 
+ROWS:    8(229PX)
+CHANGELOG:  DONE
+*/
+@media (max-width: 999px) {
+  /* BODY */
+  .container {
+    max-width: 800px;
+  }
+  .grid {
+    grid-template-columns: repeat(3, 229px);
+    grid-template-rows: repeat(8, 229px);
+  }
+  .heading-secondary {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .subheading {
+    font-size: 12px;
+  }
+
+  /* HEADER */
+  .header {
+    max-width: 800px;
+  }
+
+  /* INTRODUCTION */
+  .intro-heading {
+    font-size: 40px;
+  }
+  .intro-subheading {
+    font-size: 18px;
+  }
+  .intro-text {
+    font-size: 14.5px;
+    margin-bottom: 14px;
+    width: 47ch;
+  }
+  .intro-text--placeholder-margin {
+    margin-bottom: 154px;
+  }
+  .intro-btn {
+    margin-top: 10px;
+  }
+
+  /* PHOTOS */
+  .photo {
+    width: 229px;
+    height: 229px;
+  }
+
+  /* skill */
+  .filters-secondary {
+    margin-bottom: 26px;
+  }
+  .filter-secondary {
+    padding: 4.5px 9px;
+  }
+  .skill-statistic {
+    font-size: 21.5px;
+  }
+
+  /* LEARNING */
+  .learning-container {
+    padding: 12px 0;
+  }
+  .learning-header {
+    margin-bottom: 12px;
+  }
+  .learning-container:first-of-type {
+    padding: 0 0 12px 0;
+  }
+  .learning-course {
+    font-size: 15px;
+  }
+
+
+  /* ROTATION */
+  .proj-view {
+    font-size: 21.5px;
+  }
+  .view-image {
+    width: 210px;
+    height: 118px;
+  }
+
+  /* PROJECTS */
+  .project-preview-container {
+    height: 218px;
+    width: 165px;
+  }
+  .project-preview-image {
+    transform: translate(-60px);
+  }
+
+  .clock-container {
+    width: 16px;
+    height: 16px;
+    opacity: var()
+  }
+  .clock-text {
+    font-size: 3.5px;
+    width: 20ch;
+  }
+  .clock-btn {
+    margin-top: 3px;
+  }
+  .clock-cta {
+    font-size: 3.5px;
+    
+  }
+
+  /*           */
+  /*           */
+  #card--intro--all {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    /* grid-column: 2/4;
+    grid-row: 2/3; */
+  }
+  
+  #card--map--all {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    /* grid-column: 1/3;
+    grid-row: 1/2; */
+  }
+  
+  #card--photos--all {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  
+  #card--skills--all {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  
+  #card--learning--all {
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+  
+  #card--proj--all {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  
+  #card--github--all {
+    grid-column: 1/3;
+    grid-row: 12/13;
+  }
+  
+  #card--linkedin--all {
+    grid-column: 3/5;
+    grid-row: 12/13;
+  }
+  
+  #card--ryos--all {
+    grid-column: 3/4;
+    grid-row: 3/5;
+  }
+  #card--recipely--all {
+    grid-column: 4/5;
+    grid-row: 3/5;
+  }
+  #card--clock--all {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    opacity: var(--card-opacity);
+  }
+  
+  /*             */
+  /* CARD--ABOUT */
+  /*             */
+  #card--intro--about {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  
+  #card--map--about {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--photos--about {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    
+  }
+  
+  #card--skills--about {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    
+  }
+  
+  #card--learning--about {
+    grid-column: 4/5;
+    grid-row: 2/4;
+  }
+  
+  #card--proj--about {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--github--about {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    opacity: var(--card-opacity);
+    
+  }
+  
+  #card--linkedin--about {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--ryos--about {
+    grid-column: 4/5;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--recipely--about {
+    grid-column: 3/4;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--clock-about {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  
+  /*                */
+  /* CARD--PROJECTS */
+  /*                */
+  #card--intro--projects {
+    grid-column: 3/5;
+    grid-row: 7/8;
+    opacity: var(--card-opacity);
+  }
+  #card--map--projects {
+    grid-column: 3/5;
+    grid-row: 4/5;
+    opacity: var(--card-opacity);
+  }
+  #card--photos--projects {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    opacity: var(--card-opacity);
+  }
+  #card--skills--projects {
+    grid-column: 1/2;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--learning--projects {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--proj--projects {
+    grid-column: 3/5;
+    grid-row: 1/2;
+    
+  }
+  #card--github--projects {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  
+  #card--linkedin--projects {
+    grid-column: 4/5;
+    grid-row: 3/4;
+  opacity: var(--card-opacity);
+  }
+  #card--ryos--projects {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  #card--recipely--projects {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  #card--clock--projects {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    
+  }
+  
+  /*             */
+  /* CARD--MEDIA */
+  /*             */
+  #card--intro--media {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    opacity: var(--card-opacity);
+  }
+  #card--map--media {
+    grid-column: 3/5;
+    grid-row: 6/7;
+    opacity: var(--card-opacity);
+  }
+  #card--photos--media {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    opacity: var(--card-opacity);
+  }
+  #card--skills--media {
+    grid-column: 4/5;
+    grid-row: 4/6;
+    opacity: var(--card-opacity);
+  }
+  #card--learning--media {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--proj--media {
+    grid-column: 3/5;
+    grid-row: 3/4;
+    opacity: var(--card-opacity);
+  }
+  #card--github--media {
+    grid-column: 3/5;
+    grid-row: 1/2;
+  }
+  
+  #card--linkedin--media {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  
+  
+  #card--ryos--media {
+    grid-column: 1/2;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--recipely--media {
+    grid-column: 2/3;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--clock--media {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    opacity: var(--card-opacity);
+  }
+  
+  
+
+/* 
+546PX ---> 424PX 
+COLUMNS: 2(168PX) 
+ROWS:   20(168PX)
+CHANGELOG:  DONE
+*/
+@media (max-width: 545px) {
+  /* BODY */
+  .container {
+    max-width: 424px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 168px);
+    grid-template-rows: repeat(23, 168px);
+  }
+  .heading-secondary {
+    font-size: 30px;
+  }
+  .heading-secondary-mobile {
+    align-self: center;
+    justify-self: center;
+  }
+  .heading-secondary--less-margin {
+    margin-bottom: 0;
+  }
+
+  /* HEADER */
+  .header {
+    max-width: 360px;
+  }
+  .filters-list {
+    font-size: 15px;
+  }
+  .filter {
+    padding: 6.5px 13px;
+  }
+  .nav-cta {
+    font-size: 15px;
+    padding: 6.5px 13px;
+  }
+
+  /* INTRODUCTION */
+  .intro-heading {
+    font-size: 46px;
+    margin-top: 0px;
+    margin-left: -8px;
+    text-align: start;
+  }
+  .intro-subheading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .intro-text {
+    font-size: 15px;
+    width: 30ch;
+    margin-left: 2px;
+    margin-bottom: 16px;
+    text-align: start;
+    align-self: start;
+  }
+  .intro-text--placeholder-margin {
+    margin-bottom: 76px;
+  }
+  .intro-cta {
+    font-size: 15px;
+    padding: 7px 14px;
+  }
+
+  /* MAP */
+  body {
+    --mapbox-zoom: 11.75;
+    --mapbox-icon-size: 0.26;
+  }
+
+  /* PHOTOS */
+  .photo {
+    width: 360px;
+    height: 360px;
+  }
+
+  /* skill */
+  .filters-secondary {
+    margin-bottom: 32px;
+  }
+  .filters-container-secondary {
+    padding: 4px 5px 4px 5px;
+  }
+  .filter-list-secondary {
+    font-size: 15px;
+  }
+  .filter-secondary {
+    padding: 6.5px 13px;
+  }
+  .statistics-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 24px;
+  }
+  .statistic-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .statistic-block:nth-child(5) {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .skill-statistic {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+
+  /* LEARNING */
+  .card--learning {
+    display: flex;
+    flex-direction: column;
+  }
+  .learning-container-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .learning-container {
+    display: grid;
+    padding: 0;
+    border-bottom: none;
+  }
+  .learning-container:first-of-type {
+    padding: 0;
+  }
+  .learning-container:last-child {
+    padding: 0;
+  }
+  .learning-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    margin-top: 26px;
+    margin-bottom: 10px;
+  }
+  .logo-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+  .logo-helper {
+    flex-direction: row;
+    margin-right: 0px;
+  }
+  .learning-text-container {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    width: 19ch;
+    justify-self: center;
+  }
+  .learning-course {
+    font-size: 14.6px;
+    text-align: center;
+  }
+  .learning-status {
+    justify-self: center;
+    margin: 0 0 0 0;
+  }
+  .learning-container:nth-child(3) .learning-status {
+    padding-top: 16.88px;
+  }
+
+
+
+  /* ROTATION */
+  .card--rotation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rotation-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    row-gap: 10px;
+  }
+  .rotation-grid-left {
+    grid-row: 2/3;
+    justify-self: center;
+  }
+  .rotation-shoe {
+    font-size: 22px;
+    text-align: center;
+  }
+  .shoe-image {
+    width: 246px;
+    height: 138px;
+  }
+  .rotation-grid-right {
+    left: 0;
+  }
+  .rotation-grid-right {
+    grid-row: 1/2;
+    margin-top: -10px;
+  }
+
+  /* PROJECTS */
+  .card--project-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+  .project-name-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .project-builtwith-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: flex-end;
+  }
+  .project--helper {
+    text-align: end;
+  }
+  .project-preview-container {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    height: 148px;
+    width: 100%;
+  }
+  .project-preview-image {
+    transform: translate(0px);
+    width: 296px;
+    height: 148px;
+  }
+  .project-btn-container {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+  .project-cta {
+    font-size: 15px;
+    padding: 7px 14px;
+  }
+
+  /* clock */
+  .clock-text {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 18ch;
+  }
+  .clock-btn {
+    margin-top: 64px;
+  }
+  .clock-cta {
+    font-size: 15px;
+    padding: 7px 14px;
+  }
+
+  #card--intro--all {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    /* grid-column: 2/4;
+    grid-row: 2/3; */
+  }
+  
+  #card--map--all {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    /* grid-column: 1/3;
+    grid-row: 1/2; */
+  }
+  
+  #card--photos--all {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  
+  #card--skills--all {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  
+  #card--learning--all {
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+  
+  #card--proj--all {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+  
+  #card--github--all {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  
+  #card--linkedin--all {
+    grid-column: 3/5;
+    grid-row: 5/6;
+  }
+  
+  #card--ryos--all {
+    grid-column: 3/4;
+    grid-row: 3/5;
+  }
+  #card--recipely--all {
+    grid-column: 4/5;
+    grid-row: 3/5;
+  }
+  #card--clock--all {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  
+  /*             */
+  /* CARD--ABOUT */
+  /*             */
+  #card--intro--about {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  
+  #card--map--about {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--photos--about {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    
+  }
+  
+  #card--skills--about {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    
+  }
+  
+  #card--learning--about {
+    grid-column: 4/5;
+    grid-row: 2/4;
+  }
+  
+  #card--proj--about {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--github--about {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    opacity: var(--card-opacity);
+    
+  }
+  
+  #card--linkedin--about {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--ryos--about {
+    grid-column: 4/5;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--recipely--about {
+    grid-column: 3/4;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--clock-about {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  
+  /*                */
+  /* CARD--PROJECTS */
+  /*                */
+  #card--intro--projects {
+    grid-column: 3/5;
+    grid-row: 7/8;
+    opacity: var(--card-opacity);
+  }
+  #card--map--projects {
+    grid-column: 3/5;
+    grid-row: 4/5;
+    opacity: var(--card-opacity);
+  }
+  #card--photos--projects {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    opacity: var(--card-opacity);
+  }
+  #card--skills--projects {
+    grid-column: 1/2;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--learning--projects {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--proj--projects {
+    grid-column: 3/5;
+    grid-row: 1/2;
+    
+  }
+  #card--github--projects {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  
+  #card--linkedin--projects {
+    grid-column: 4/5;
+    grid-row: 3/4;
+  opacity: var(--card-opacity);
+  }
+  #card--ryos--projects {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  #card--recipely--projects {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  #card--clock--projects {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    
+  }
+  
+  /*             */
+  /* CARD--MEDIA */
+  /*             */
+  #card--intro--media {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    opacity: var(--card-opacity);
+  }
+  #card--map--media {
+    grid-column: 3/5;
+    grid-row: 6/7;
+    opacity: var(--card-opacity);
+  }
+  #card--photos--media {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    opacity: var(--card-opacity);
+  }
+  #card--skills--media {
+    grid-column: 4/5;
+    grid-row: 4/6;
+    opacity: var(--card-opacity);
+  }
+  #card--learning--media {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    opacity: var(--card-opacity);
+  }
+  
+  #card--proj--media {
+    grid-column: 3/5;
+    grid-row: 3/4;
+    opacity: var(--card-opacity);
+  }
+  #card--github--media {
+    grid-column: 3/5;
+    grid-row: 1/2;
+  }
+  
+  #card--linkedin--media {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  
+  
+  #card--ryos--media {
+    grid-column: 1/2;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--recipely--media {
+    grid-column: 2/3;
+    grid-row: 5/7;
+    opacity: var(--card-opacity);
+  }
+  #card--clock--media {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    opacity: var(--card-opacity);
+  }
+  
+  
+
+/* 
+424PX ---> 410PX 
+COLUMNS: 2(161PX) 
+ROWS:   20(161PX)
+CHANGELOG:  DONE
+*/
+@media (max-width: 423px) {
+  /* BODY */
+
+  .filters-container-main {
+    margin-right: 25px;
+  }
+  .container {
+    max-width: 410px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 161px);
+    grid-template-rows: repeat(23, 161px);
+  }
+
+  /* INTRODUCTION */
+  .intro-heading {
+    font-size: 44px;
+    margin-left: -4px;
+  }
+  .intro-text {
+    line-height: 1.3;
+  }
+
+  /* PHOTOS */
+  .photo {
+    width: 346px;
+    height: 346px;
+  }
+
+  /* skill */
+  .statistics-container {
+    column-gap: 17px;
+  }
+  .statistic-block:nth-child(5) .skill-statistic,
+  .statistic-block:nth-child(6) .skill-statistic {
+    margin-bottom: 0px;
+  }
+  .skill-statistic {
+    margin-bottom: 20px;
+  }
+
+  /* LEARNING */
+  .learning-header {
+    margin-top: 18px;
+  }
+
+
+  /* ROTATION */
+  .shoe-image {
+    width: 226px;
+    height: 128px;
+  }
+
+  /* SOCIALS */
+  .social-media-logo {
+    height: 65px;
+    width: 65px;
+  }
+
+  /* PROJECTS */
+  .project-preview-container {
+    height: 141px;
+    width: 282px;
+  }
+  .project-preview-image {
+    transform: translate(0px);
+    width: 282px;
+    height: 141px;
+  }
+
+  /* clock */
+  .clock-text {
+    margin-top: 34px;
+  }
+  .clock-btn {
+    margin-top: 58px;
+  }
+}
+
+/* 
+410PX ---> 390PX
+COLUMNS: 2(151PX)
+ROWS:   20(151PX)
+CHANGELOG:  DONE
+*/
+@media (max-width: 409px) {
+  /* BODY */
+  .container {
+    max-width: 390px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 151px);
+    grid-template-rows: repeat(23, 151px);
+  }
+  .card--intro,
+  .card--skill,
+  .card--learning,
+  .card--proj,
+  .card--github,
+  .card--linkedin,
+  .card--ryos,
+  .card--recipely,
+  .card--clock {
+    padding: 24px;
+  }
+  .heading-secondary {
+    font-size: 28px;
+  }
+  .subheading {
+    font-size: 11.5px;
+  }
+
+  /* HEADER */
+  .header {
+    max-width: 346px;
+  }
+  .filters-list {
+    font-size: 14px;
+
+  }
+
+  .toggle-container {
+    margin-left: -40px;
+    margin-top: -90px;
+  }
+  .nav-btn {
+    margin-right: -40px;
+    margin-top: -90px;
+  }
+
+  /* INTRODUCTION */
+  .card--intro {
+    margin-top: -40px;
+  }
+  .intro-subheading {
+    margin-bottom: 6px;
+  }
+  .intro-text--placeholder-margin {
+    margin-bottom: 62px;
+  }
+
+  /* MAP */
+  body {
+    --mapbox-zoom: 11.3;
+    --mapbox-icon-size: 0.23;
+  }
+
+  /* PHOTOS */
+  .photo {
+    width: 326px;
+    height: 326px;
+  }
+
+  /* skill */
+  .filter-list-secondary {
+    font-size: 15px;
+  }
+  .filters-secondary {
+    margin-bottom: 24px;
+  }
+  .skill-statistic {
+    margin-bottom: 24px;
+  }
+
+
+  /* ROTATION */
+  .rotation-grid {
+    row-gap: 4px;
+  }
+  .shoe-image {
+    width: 224px;
+    height: 124px;
+  }
+
+  /* SOCIALS */
+  .social-media-logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+/* 
+390PX ---> 374PX
+COLUMNS: 2(151PX)
+ROWS:   20(151PX)
+MARGIN:     24PX
+CHANGELOG:  DONE
+*/
+@media (max-width: 389px) {
+  /* BODY */
+  .container {
+    max-width: 374px;
+    padding: 0 24px;
+  }
+  /* HEADER */
+  .header {
+    max-width: 288px;
+  }
+  .filter {
+    padding: 7px 14px;
+  }
+  [data-filter='media'] {
+    display: none;
+  }
+  /* skill */
+  .filter-secondary {
+    padding: 7px 14px;
+  }
+}
+
+/* 
+374PX ---> 360PX
+COLUMNS: 2(144PX)
+ROWS:   20(144PX)
+CHANGELOG:  DONE
+*/
+@media (max-width: 373px) {
+
+  .header {
+    max-width: 288px;
+  }
+
+  .toggle-container {
+    margin-left: -40px;
+    margin-top: -70px;
+  }
+  .nav-btn {
+    margin-right: -40px;
+    margin-top: -70px;
+  }
+  /* BODY */
+  .container {
+    max-width: 360px;
+  }
+.filters-primary {
+    margin-top: 60px;
+  }
+  .filter {
+    padding: 7px 14px;
+   /* Adjust this value to move the filter lower */
+  }
+  }
+  .grid {
+    grid-template-columns: repeat(2, 144px);
+    grid-template-rows: repeat(23, 144px);
+  }
+
+  /* INTRODUCTION */
+  .intro-heading {
+    font-size: 42px;
+    margin-left: -2px;
+  }
+  .intro-subheading {
+    font-size: 20px;
+  }
+  .intro-text {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .intro-text--placeholder-margin {
+    margin-bottom: 56px;
+  }
+  .intro-cta {
+    font-size: 14.5px;
+  }
+
+  /* PHOTOS */
+  .photo {
+    width: 160px;
+    height: 160px;
+  }
+
+
+  /* skill */
+  .running-container {
+    padding: 0;
+    border-bottom: none;
+
+  }
+  .running-statistic {
+    margin-bottom: 18px;
+    font-size: 15px;
+    margin: 0 auto;
+  }
+
+  /* LEARNING */
+  .learning-header {
+    margin-top: 14px;
+  }
+  .learning-course {
+    font-size: 14px;
+  }
+
+
+  /* ROTATION */
+  .heading-secondary {
+    font-size: 25px;
+    text-align: center;
+  }
+  .proj-view {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: -10px;
+    text-align: center ;
+  }
+  .proj-view-image {
+    width: 22px;
+    height: 5px;
+  }
+
+  /* SOCIALS */
+  .social-media-logo {
+    height: 55px;
+    width: 55px;
+  }
+
+  /* PROJECTS */
+  .project-preview-container {
+    height: 132px;
+    width: 264px;
+  }
+  .project-preview-image {
+    height: 132px;
+    width: 264px;
+  }
+}
+#card--intro--all {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  /* grid-column: 2/4;
+  grid-row: 2/3; */
+}
+
+#card--map--all {
+  grid-column: 1/3;
+  grid-row: 17/18;
+  opacity: var(--card-opacity);
+  /* grid-column: 1/3;
+  grid-row: 1/2; */
+}
+
+#card--photos--all {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#card--skills--all {
+  grid-column: 1/3;
+  grid-row: 4/8;
+}
+
+#card--learning--all {
+  grid-column: 1/3;
+  grid-row: 17/19;
+}
+
+#card--proj--all {
+  grid-column: 1/3;
+  grid-row: 8/10;
+}
+
+#card--github--all {
+  grid-column: 1/3;
+  grid-row: 10/11;
+}
+
+#card--linkedin--all {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  
+}
+
+#card--ryos--all {
+  grid-column: 1/3;
+  grid-row: 11/14;
+}
+#card--recipely--all {
+  grid-column: 1/3;
+  grid-row: 14/17;
+}
+#card--clock--all {
+  grid-column: 2/3;
+  grid-row: 18/19;
+  opacity: var(--card-opacity);
+}
+
+/*             */
+/* CARD--ABOUT */
+/*             */
+#card--intro--about {
+  grid-column: 1/3;
+  grid-row: 1/6;
+}
+
+#card--map--about {
+  grid-column: 1/3;
+  grid-row: 20/22;
+  opacity: var(--card-opacity);
+}
+
+#card--photos--about {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  opacity: var(--card-opacity);
+  
+}
+
+#card--skills--about {
+  grid-column: 1/3;
+  grid-row: 6/10;
+  
+}
+
+#card--learning--about {
+  grid-column: 1/3;
+  grid-row: 10/12;
+}
+
+#card--proj--about {
+  grid-column: 1/3;
+  grid-row: 12/13;
+  opacity: var(--card-opacity);
+}
+
+#card--github--about {
+  grid-column: 2/3;
+  grid-row: 13/14;
+  opacity: var(--card-opacity);
+  
+  
+}
+
+#card--linkedin--about {
+  grid-column: 1/2;
+  grid-row: 15/16;
+  opacity: var(--card-opacity);
+  
+}
+
+#card--ryos--about {
+  grid-column: 4/5;
+  grid-row: 16/17;
+  opacity: var(--card-opacity);
+}
+#card--recipely--about {
+  grid-column: 3/4;
+  grid-row: 18/19;
+  opacity: var(--card-opacity);
+}
+#card--clock-about {
+  grid-column: 1/3;
+  grid-row: 20/21;
+  opacity: var(--card-opacity);
+}
+
+/*                */
+/* CARD--PROJECTS */
+/*                */
+#card--intro--projects {
+  grid-column: 3/5;
+  grid-row: 7/8;
+  opacity: var(--card-opacity);
+}
+#card--map--projects {
+  grid-column: 3/5;
+  grid-row: 4/5;
+  opacity: var(--card-opacity);
+}
+#card--photos--projects {
+  grid-column: 4/5;
+  grid-row: 5/6;
+  opacity: var(--card-opacity);
+}
+#card--skills--projects {
+  grid-column: 1/2;
+  grid-row: 5/7;
+  opacity: var(--card-opacity);
+}
+#card--learning--projects {
+  grid-column: 2/3;
+  grid-row: 3/5;
+  opacity: var(--card-opacity);
+}
+
+#card--proj--projects {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  
+}
+#card--github--projects {
+  grid-column: 1/3;
+  grid-row: 9/10;
+}
+
+#card--linkedin--projects {
+  grid-column: 4/5;
+  grid-row: 7/4;
+opacity: var(--card-opacity);
+}
+#card--ryos--projects {
+  grid-column: 1/3;
+  grid-row: 3/6;
+}
+#card--recipely--projects {
+  grid-column: 1/3;
+  grid-row: 6/9;
+}
+#card--clock--projects {
+  grid-column: 1/3;
+  grid-row: 20/21;
+  opacity: var(--card-opacity);
+  
+}
+
+/*             */
+/* CARD--MEDIA */
+/*             */
+#card--intro--media {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  opacity: var(--card-opacity);
+}
+#card--map--media {
+  grid-column: 3/5;
+  grid-row: 6/7;
+  opacity: var(--card-opacity);
+}
+#card--photos--media {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  opacity: var(--card-opacity);
+}
+#card--skills--media {
+  grid-column: 4/5;
+  grid-row: 4/6;
+  opacity: var(--card-opacity);
+}
+#card--learning--media {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  opacity: var(--card-opacity);
+}
+
+#card--proj--media {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  opacity: var(--card-opacity);
+}
+#card--github--media {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+#card--linkedin--media {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+
+#card--ryos--media {
+  grid-column: 1/2;
+  grid-row: 5/7;
+  opacity: var(--card-opacity);
+}
+#card--recipely--media {
+  grid-column: 2/3;
+  grid-row: 5/7;
+  opacity: var(--card-opacity);
+}
+#card--clock--media {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  opacity: var(--card-opacity);
+}
+
+
+/*                  */
+/*                  */
+/* CURRENT PROGRESS */
+/*                  */
+/*                  */
+
+/* 
+360PX ---> 300PX
+COLUMNS: 2(128PX)
+ROWS:   17(128PX)
+CHANGELOG:  DONE
+*/
+@media (max-width: 359px) {
+  /* BODY */
+  .container {
+    max-width: 300px;
+    padding: 0 16px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 128px);
+    grid-template-rows: repeat(23, 128px);
+    column-gap: 12px;
+    row-gap: 12px;
+  }
+  .card--intro,
+  .card--skill,
+  .card--learning,
+  .card--proj,
+  .card--github,
+  .card--linkedin,
+  .card--ryos,
+  .card--recipely,
+  .card--clock {
+    padding: 16px;
+  }
+  .heading-secondary {
+    font-size: 24px;
+  }
+  .subheading {
+    font-size: 11px;
+  }
+
+  /* HEADER */
+  .header {
+    max-width: 272px;
+  }
+  .filter {
+    padding: 6px 12px;
+  }
+  .nav-cta {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  /* INTRODUCTION */
+  .intro-heading {
+    font-size: 36px;
+    margin-left: -8px;
+  }
+  .intro-subheading {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+  .intro-text {
+    font-size: 13.5px;
+    margin-bottom: 10px;
+    width: 29ch;
+  }
+  .intro-cta {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  /* MAP */
+  body {
+    --mapbox-zoom: 11.2;
+    --mapbox-icon-size: 0.2;
+  }
+
+  /* PHOTOS */
+  .photo {
+    width: 268px;
+    height: 268px;
+  }
+
+  /* skill */
+  .filter-secondary {
+    padding: 6px 12px;
+  }
+  .statistics-container {
+    grid-template-rows: repeat(3, auto);
+  }
+  .skill-statistic {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  /* LEARNING */
+  .learning-header {
+    margin-bottom: 4px;
+  }
+  .logo-vector {
+    height: 24px;
+    width: 24px;
+  }
+  .learning-container:nth-child(2) .learning-status {
+    margin-top: auto;
+  }
+  .learning-course {
+    font-size: 13.5px;
+  }
+  .learning-status {
+    font-size: 11px;
+  }
+
+
+  /* ROTATION */
+  .shoe-image {
+    width: 190px;
+    height: 106px;
+  }
+  .rotation-shoe {
+    font-size: 18px;
+  }
+
+  /* SOCIALS */
+  .social-media-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  /* PROJECTS */
+  .project-preview-container {
+    height: 118px;
+    width: 236px;
+  }
+  .project-preview-image {
+    height: 118px;
+    width: 236px;
+  }
+  .project-cta {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  /* clock */
+  .clock-text {
+    font-size: 16px;
+    width: 21ch;
+  }
+  .clock-btn {
+    margin-top: 34px;
+  }
+.clock-cta {
+  font-size: 13px;
+  padding: 6px 12px;
+}
+}

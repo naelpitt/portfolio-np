@@ -1,0 +1,2723 @@
+/* 
+1200PX -> 1000PX 
+COLUMNS: 4(216PX) 
+ROWS:    6(216PX) 
+*/
+@media() {
+  @media (body) {
+    .container {
+      max-width: 1000px;
+    }
+    .grid {
+      grid-template-columns: repeat(4, 266px);
+      grid-template-rows: repeat(5, 266px);
+    }
+    .heading-secondary {
+      font-size: 23px;
+      margin-bottom: 16px;
+    }
+    .subheading {
+      font-size: 11.5px;
+    }
+  }
+  @media (header) {
+    .header {
+      max-width: 1000px;
+    }
+    .filters-list {
+      font-size: 14.5px;
+    }
+    .nav-cta {
+      font-size: 14.5px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 38px;
+    }
+    .intro-subheading {
+      font-size: 18px;
+      margin-top: 4px;
+      margin-bottom: -6px;
+    }
+    .intro-text {
+      font-size: 13.5px;
+      width: 48ch;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 148px;
+    }
+    .intro-btn {
+      margin-top: 18px;
+    }
+    .intro-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.25;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 216px;
+      height: 216px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 20px;
+    }
+    .filters-container-secondary {
+      padding: 3px 4px 3px 4px;
+    }
+    .filter-secondary {
+      padding: 4px 7px;
+    }
+    .filter-list-secondary {
+      font-size: 13px;
+    }
+    .running-statistic {
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+  }
+  @media (learning) {
+    .learning-container {
+      padding: 10px 0;
+    }
+    .learning-header {
+      margin-bottom: 10px;
+    }
+    .learning-text-container {
+      width: 28ch;
+    }
+    .learning-container:first-of-type {
+      padding: 0 0 10px 0;
+    }
+    .learning-container:last-of-type {
+      padding: 10px 0 0 0;
+    }
+    .learning-course {
+      font-size: 13.5px;
+    }
+    .learning-status {
+      font-size: 11.5px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: 152px 1fr;
+      column-gap: 56px;
+    }
+    #spotify-artwork {
+      width: 152px;
+      height: 152px;
+    }
+    .spotify-logo {
+      width: 42px;
+      height: 42px;
+    }
+    .current-status {
+      font-size: 15px;
+    }
+    .now-playing {
+      font-size: 20px;
+    }
+    .song-artist {
+      font-size: 15px;
+    }
+  }
+  @media (rotation) {
+    .rotation-shoe {
+      font-size: 20px;
+    }
+    .shoe-image {
+      width: 196px;
+      height: 110px;
+    }
+  }
+  @media (socials) {
+  }
+  @media (projects) {
+    .project-logo {
+      height: 25px;
+      width: 25px;
+    }
+    .project-preview-container {
+      height: 200px;
+      width: 152px;
+    }
+    .project-preview-image {
+      transform: translate(-57px);
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      font-size: 13.5px;
+      width: 20ch;
+    }
+    .donate-btn {
+      margin-top: 13px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+1000PX --> 800PX 
+COLUMNS: 3(229PX) 
+ROWS:    8(229PX)
+*/
+@media() {
+  @media (body) {
+    .container {
+      max-width: 800px;
+    }
+    .grid {
+      grid-template-columns: repeat(3, 229px);
+      grid-template-rows: repeat(8, 229px);
+    }
+    .heading-secondary {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+    .subheading {
+      font-size: 12px;
+    }
+  }
+  @media (header) {
+    .header {
+      max-width: 800px;
+    }
+    .filters-list {
+      font-size: 14.5px;
+    }
+    .nav-cta {
+      font-size: 14.5px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 40px;
+    }
+    .intro-subheading {
+      font-size: 18px;
+      margin-top: 4px;
+      margin-bottom: -6px;
+    }
+    .intro-text {
+      font-size: 14.5px;
+      margin-bottom: 14px;
+      width: 47ch;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 154px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.25;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 229px;
+      height: 229px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 26px;
+    }
+    .filters-container-secondary {
+      padding: 3px 4px 3px 4px;
+    }
+    .filter-secondary {
+      padding: 4.5px 9px;
+    }
+    .filter-list-secondary {
+      font-size: 13px;
+    }
+    .running-statistic {
+      font-size: 21.5px;
+      margin-bottom: 14px;
+    }
+  }
+  @media (learning) {
+    .learning-container {
+      padding: 12px 0;
+    }
+    .learning-header {
+      margin-bottom: 12px;
+    }
+    .learning-text-container {
+      width: 28ch;
+    }
+    .learning-container:first-of-type {
+      padding: 0 0 12px 0;
+    }
+    .learning-container:last-of-type {
+      padding: 10px 0 0 0;
+    }
+    .learning-course {
+      font-size: 15px;
+    }
+    .learning-status {
+      font-size: 11.5px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: 165px 1fr;
+      column-gap: 56px;
+    }
+    #spotify-artwork {
+      width: 165px;
+      height: 165px;
+    }
+    .spotify-logo {
+      width: 42px;
+      height: 42px;
+    }
+    .current-status {
+      font-size: 15px;
+    }
+    .now-playing {
+      font-size: 22px;
+    }
+    .song-artist {
+      font-size: 15px;
+    }
+  }
+  @media (rotation) {
+    .rotation-shoe {
+      font-size: 21.5px;
+    }
+    .shoe-image {
+      width: 210px;
+      height: 118px;
+    }
+  }
+  @media (socials) {
+  }
+  @media (projects) {
+    .project-logo {
+      height: 25px;
+      width: 25px;
+    }
+    .project-preview-container {
+      height: 218px;
+      width: 165px;
+    }
+    .project-preview-image {
+      transform: translate(-60px);
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      font-size: 13.5px;
+      width: 20ch;
+    }
+    .donate-btn {
+      margin-top: 13px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+800PX ---> 546PX 
+COLUMNS: 2(229PX) 
+ROWS:   12(229PX)
+*/
+@media() {
+  @media (body) {
+    .container {
+      max-width: 546px;
+    }
+    .grid {
+      grid-template-columns: repeat(2, 229px);
+      grid-template-rows: repeat(12, 229px);
+    }
+    .heading-secondary {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+    .subheading {
+      font-size: 12px;
+    }
+  }
+  @media (header) {
+    .header {
+      display: grid;
+      max-width: 382px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: auto;
+      gap: 32px;
+      padding: 0;
+      margin-bottom: 74px;
+    }
+    .toggle-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .filters-primary {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-self: center;
+      position: relative;
+    }
+    .filters-list {
+      font-size: 14.5px;
+    }
+    .nav-btn {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    .nav-cta {
+      font-size: 14.5px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 40px;
+    }
+    .intro-subheading {
+      font-size: 18px;
+      margin-top: 4px;
+      margin-bottom: -6px;
+    }
+    .intro-text {
+      font-size: 14.5px;
+      margin-bottom: 14px;
+      width: 47ch;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 154px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.25;
+      --mobile-device: 1;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 229px;
+      height: 229px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 26px;
+    }
+    .filters-container-secondary {
+      padding: 3px 4px 3px 4px;
+    }
+    .filter-secondary {
+      padding: 4.5px 9px;
+    }
+    .filter-list-secondary {
+      font-size: 13px;
+    }
+    .running-statistic {
+      font-size: 21.5px;
+      margin-bottom: 14px;
+    }
+  }
+  @media (learning) {
+    .learning-container {
+      padding: 12px 0;
+    }
+    .learning-header {
+      margin-bottom: 12px;
+    }
+    .learning-text-container {
+      width: 28ch;
+    }
+    .learning-container:first-of-type {
+      padding: 0 0 12px 0;
+    }
+    .learning-container:last-of-type {
+      padding: 10px 0 0 0;
+    }
+    .learning-course {
+      font-size: 15px;
+    }
+    .learning-status {
+      font-size: 11.5px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: 165px 1fr;
+      column-gap: 56px;
+    }
+    #spotify-artwork {
+      width: 165px;
+      height: 165px;
+    }
+    .spotify-logo {
+      width: 42px;
+      height: 42px;
+    }
+    .current-status {
+      font-size: 15px;
+    }
+    .now-playing {
+      font-size: 22px;
+    }
+    .song-artist {
+      font-size: 15px;
+    }
+  }
+  @media (rotation) {
+    .rotation-shoe {
+      font-size: 21.5px;
+    }
+    .shoe-image {
+      width: 210px;
+      height: 118px;
+    }
+  }
+  @media (socials) {
+  }
+  @media (projects) {
+    .project-logo {
+      height: 25px;
+      width: 25px;
+    }
+    .project-preview-container {
+      height: 218px;
+      width: 165px;
+    }
+    .project-preview-image {
+      transform: translate(-60px);
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      font-size: 13.5px;
+      width: 20ch;
+    }
+    .donate-btn {
+      margin-top: 13px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+546PX ---> 424PX 
+COLUMNS: 2(168PX) 
+ROWS:   20(168PX)
+*/
+@media() {
+  @media (body) {
+    .container {
+      max-width: 424px;
+    }
+    .grid {
+      grid-template-columns: repeat(2, 168px);
+      grid-template-rows: repeat(23, 168px);
+    }
+    .heading-secondary {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .heading-secondary-mobile {
+      align-self: center;
+      justify-self: center;
+    }
+    .heading-secondary--less-margin {
+      margin-bottom: 0;
+    }
+    .subheading {
+      font-size: 12px;
+    }
+  }
+  @media (header) {
+    .header {
+      display: grid;
+      max-width: 360px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: auto;
+      gap: 32px;
+      padding: 0;
+      margin-bottom: 74px;
+    }
+    .toggle-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .filters-primary {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-self: center;
+      position: relative;
+    }
+    .filters-list {
+      font-size: 15px;
+    }
+    .filter {
+      padding: 6.5px 13px;
+    }
+    .nav-btn {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    .nav-cta {
+      font-size: 15px;
+      padding: 6.5px 13px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 46px;
+      margin-top: 0px;
+      margin-left: -8px;
+      text-align: start;
+    }
+    .intro-subheading {
+      font-size: 24px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+    .intro-text {
+      font-size: 15px;
+      width: 30ch;
+      margin-left: 2px;
+      margin-bottom: 16px;
+      text-align: start;
+      align-self: start;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 76px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      /* font-size: 13.5px;
+      padding: 6px 12px; */
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.75;
+      --mapbox-icon-size: 0.26;
+      --mobile-device: 1;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 360px;
+      height: 360px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 32px;
+    }
+    .filters-container-secondary {
+      padding: 4px 5px 4px 5px;
+    }
+    .filter-list-secondary {
+      font-size: 15px;
+    }
+    .filter-secondary {
+      padding: 6.5px 13px;
+    }
+    .statistics-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 24px;
+    }
+    .statistic-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .statistic-block:nth-child(5) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .running-statistic {
+      font-size: 22px;
+      margin-bottom: 24px;
+    }
+  }
+  @media (learning) {
+    .card--learning {
+      display: flex;
+      flex-direction: column;
+    }
+    .learning-container-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .learning-container {
+      display: grid;
+      padding: 0;
+      border-bottom: none;
+    }
+    .learning-container:first-of-type {
+      padding: 0;
+    }
+    .learning-container:last-child {
+      padding: 0;
+    }
+    .learning-header {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 26px;
+      margin-bottom: 10px;
+    }
+    .logo-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+    .logo-helper {
+      flex-direction: row;
+      margin-right: 0px;
+    }
+    .learning-text-container {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      display: flex;
+      width: 19ch;
+      justify-self: center;
+    }
+    .learning-course {
+      font-size: 14.6px;
+      text-align: center;
+    }
+    .learning-status {
+      justify-self: center;
+      margin: 0 0 0 0;
+    }
+    .learning-container:nth-child(3) .learning-status {
+      padding-top: 16.88px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      column-gap: 0px;
+    }
+    .song-artwork {
+      grid-column: 1/3;
+      grid-template-rows: 1/3;
+    }
+    #spotify-artwork {
+      width: 148px;
+      height: 148px;
+    }
+    .spotify-logo {
+      grid-column: 4/5;
+      grid-row: 1/2;
+      width: 64px;
+      height: 64px;
+      justify-self: flex-end;
+    }
+    .spotify-information {
+      grid-column: 1/5;
+      grid-row: 4/5;
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+    }
+    .current-status {
+      font-size: 17px;
+    }
+    .now-playing {
+      font-size: 26px;
+    }
+    .song-artist {
+      font-size: 17px;
+    }
+  }
+  @media (rotation) {
+    .card--rotation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .rotation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      row-gap: 10px;
+    }
+    .rotation-grid-left {
+      grid-row: 2/3;
+      justify-self: center;
+    }
+    .rotation-shoe {
+      font-size: 22px;
+      text-align: center;
+    }
+    .shoe-image {
+      width: 246px;
+      height: 138px;
+    }
+    .rotation-grid-right {
+      left: 0;
+    }
+    .rotation-grid-right {
+      grid-row: 1/2;
+      margin-top: -10px;
+    }
+  }
+  @media (socials) {
+  }
+  @media (projects) {
+    .card--project-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    .project-name-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .project-builtwith-container {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: flex-end;
+    }
+    .project--helper {
+      text-align: end;
+    }
+    .project-preview-container {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      height: 148px;
+      width: 296px;
+    }
+    .project-preview-image {
+      transform: translate(0px);
+      height: 148px;
+      width: 296px;
+    }
+    .project-btn-container {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      margin-top: 40px;
+      font-size: 18px;
+      font-weight: 500;
+      width: 18ch;
+    }
+    .donate-btn {
+      margin-top: 64px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+424PX ---> 410PX 
+COLUMNS: 2(161PX) 
+ROWS:   20(161PX)
+*/
+
+@media() {
+  @media (body) {
+    .container {
+      max-width: 410px;
+    }
+    .grid {
+      grid-template-columns: repeat(2, 161px);
+      grid-template-rows: repeat(23, 161px);
+    }
+    .heading-secondary {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .heading-secondary-mobile {
+      align-self: center;
+      justify-self: center;
+    }
+    .heading-secondary--less-margin {
+      margin-bottom: 0;
+    }
+    .subheading {
+      font-size: 12px;
+    }
+  }
+  @media (header) {
+    .header {
+      display: grid;
+      max-width: 360px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: auto;
+      gap: 32px;
+      padding: 0;
+      margin-bottom: 74px;
+    }
+    .toggle-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .filters-primary {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-self: center;
+      position: relative;
+    }
+    .filters-list {
+      font-size: 15px;
+    }
+    .filter {
+      padding: 6.5px 13px;
+    }
+    .nav-btn {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    .nav-cta {
+      font-size: 15px;
+      padding: 6.5px 13px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 44px;
+      margin-top: 0px;
+      margin-left: -4px;
+      text-align: start;
+    }
+    .intro-subheading {
+      font-size: 24px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+    .intro-text {
+      font-size: 15px;
+      width: 30ch;
+      margin-left: 2px;
+      margin-bottom: 16px;
+      text-align: start;
+      align-self: start;
+      line-height: 1.3;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 76px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      /* font-size: 13.5px;
+      padding: 6px 12px; */
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.75;
+      --mapbox-icon-size: 0.26;
+      --mobile-device: 1;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 346px;
+      height: 346px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 32px;
+    }
+    .filters-container-secondary {
+      padding: 4px 5px 4px 5px;
+    }
+    .filter-list-secondary {
+      font-size: 15px;
+    }
+    .filter-secondary {
+      padding: 6.5px 13px;
+    }
+    .statistics-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 17px;
+    }
+    .statistic-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .statistic-block:nth-child(5) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .statistic-block:nth-child(5) .running-statistic,
+    .statistic-block:nth-child(6) .running-statistic {
+      margin-bottom: 0px;
+    }
+    .running-statistic {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (learning) {
+    .card--learning {
+      display: flex;
+      flex-direction: column;
+    }
+    .learning-container-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .learning-container {
+      display: grid;
+      padding: 0;
+      border-bottom: none;
+    }
+    .learning-container:first-of-type {
+      padding: 0;
+    }
+    .learning-container:last-child {
+      padding: 0;
+    }
+    .learning-header {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 18px;
+      margin-bottom: 10px;
+    }
+    .logo-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+    .logo-helper {
+      flex-direction: row;
+      margin-right: 0px;
+    }
+    .learning-text-container {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      display: flex;
+      width: 19ch;
+      justify-self: center;
+    }
+    .learning-course {
+      font-size: 14.6px;
+      text-align: center;
+    }
+    .learning-status {
+      justify-self: center;
+      margin: 0 0 0 0;
+    }
+    .learning-container:nth-child(3) .learning-status {
+      padding-top: 16.88px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      column-gap: 0px;
+    }
+    .song-artwork {
+      grid-column: 1/3;
+      grid-template-rows: 1/3;
+    }
+    #spotify-artwork {
+      width: 141px;
+      height: 141px;
+    }
+    .spotify-logo {
+      grid-column: 4/5;
+      grid-row: 1/2;
+      width: 64px;
+      height: 64px;
+      justify-self: flex-end;
+    }
+    .spotify-information {
+      grid-column: 1/5;
+      grid-row: 4/5;
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+    }
+    .current-status {
+      font-size: 17px;
+    }
+    .now-playing {
+      font-size: 26px;
+    }
+    .song-artist {
+      font-size: 17px;
+    }
+  }
+  @media (rotation) {
+    .card--rotation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .rotation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      row-gap: 10px;
+    }
+    .rotation-grid-left {
+      grid-row: 2/3;
+      justify-self: center;
+    }
+    .rotation-shoe {
+      font-size: 22px;
+      text-align: center;
+    }
+    .shoe-image {
+      width: 226px;
+      height: 128px;
+    }
+    .rotation-grid-right {
+      left: 0;
+    }
+    .rotation-grid-right {
+      grid-row: 1/2;
+      margin-top: -10px;
+    }
+  }
+  @media (socials) {
+    .social-media-logo {
+      height: 65px;
+      width: 65px;
+    }
+  }
+  @media (projects) {
+    .card--project-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    .project-name-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .project-builtwith-container {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: flex-end;
+    }
+    .project--helper {
+      text-align: end;
+    }
+    .project-preview-container {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      height: 141px;
+      width: 282px;
+    }
+    .project-preview-image {
+      transform: translate(0px);
+      height: 141px;
+      width: 282px;
+    }
+    .project-btn-container {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      margin-top: 34px;
+      font-size: 18px;
+      font-weight: 500;
+      width: 18ch;
+    }
+    .donate-btn {
+      margin-top: 58px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+410PX ---> 390PX
+COLUMNS: 2(151PX)
+ROWS:   20(151PX)
+*/
+
+@media() {
+  @media (body) {
+    .container {
+      max-width: 390px;
+    }
+    .grid {
+      grid-template-columns: repeat(2, 151px);
+      grid-template-rows: repeat(23, 151px);
+    }
+    .card--intro,
+    .card--running,
+    .card--learning,
+    .card--spotify,
+    .card--rotation,
+    .card--github,
+    .card--twitter,
+    .card--instagram,
+    .card--linkedin,
+    .card--youtube,
+    .card--ryos,
+    .card--recipely,
+    .card--donate {
+      padding: 24px;
+    }
+    .heading-secondary {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .heading-secondary-mobile {
+      align-self: center;
+      justify-self: center;
+    }
+    .heading-secondary--less-margin {
+      margin-bottom: 0;
+    }
+    .subheading {
+      font-size: 11.5px;
+    }
+  }
+  @media (header) {
+    .header {
+      display: grid;
+      max-width: 346px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: auto;
+      gap: 32px;
+      padding: 0;
+      margin-bottom: 74px;
+    }
+    .toggle-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .filters-primary {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-self: center;
+      position: relative;
+    }
+    .filters-list {
+      font-size: 14px;
+    }
+    .filter {
+      padding: 6.5px 13px;
+    }
+    .nav-btn {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    .nav-cta {
+      font-size: 15px;
+      padding: 6.5px 13px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 44px;
+      margin-top: 0px;
+      margin-left: -4px;
+      text-align: start;
+    }
+    .intro-subheading {
+      font-size: 24px;
+      margin-top: 4px;
+      margin-bottom: 6px;
+    }
+    .intro-text {
+      font-size: 15px;
+      width: 30ch;
+      margin-left: 2px;
+      margin-bottom: 16px;
+      text-align: start;
+      align-self: start;
+      line-height: 1.3;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 76px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      /* font-size: 13.5px;
+      padding: 6px 12px; */
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.3;
+      --mapbox-icon-size: 0.23;
+      --mobile-device: 1;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 326px;
+      height: 326px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 32px;
+    }
+    .filters-container-secondary {
+      padding: 4px 5px 4px 5px;
+    }
+    .filter-list-secondary {
+      font-size: 14px;
+    }
+    .filter-secondary {
+      padding: 6.5px 13px;
+      margin-bottom: 24px;
+    }
+    .statistics-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 17px;
+    }
+    .statistic-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .statistic-block:nth-child(5) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .statistic-block:nth-child(5) .running-statistic,
+    .statistic-block:nth-child(6) .running-statistic {
+      margin-bottom: 0px;
+    }
+    .running-statistic {
+      font-size: 22px;
+      margin-bottom: 24px;
+    }
+  }
+  @media (learning) {
+    .card--learning {
+      display: flex;
+      flex-direction: column;
+    }
+    .learning-container-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .learning-container {
+      display: grid;
+      padding: 0;
+      border-bottom: none;
+    }
+    .learning-container:first-of-type {
+      padding: 0;
+    }
+    .learning-container:last-child {
+      padding: 0;
+    }
+    .learning-header {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 18px;
+      margin-bottom: 10px;
+    }
+    .logo-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+    .logo-helper {
+      flex-direction: row;
+      margin-right: 0px;
+    }
+    .learning-text-container {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      display: flex;
+      width: 19ch;
+      justify-self: center;
+    }
+    .learning-course {
+      font-size: 14.6px;
+      text-align: center;
+    }
+    .learning-status {
+      justify-self: center;
+      margin: 0 0 0 0;
+    }
+    .learning-container:nth-child(3) .learning-status {
+      padding-top: 16.88px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      column-gap: 0px;
+    }
+    .song-artwork {
+      grid-column: 1/3;
+      grid-template-rows: 1/3;
+    }
+    #spotify-artwork {
+      width: 139px;
+      height: 139px;
+    }
+    .spotify-logo {
+      grid-column: 4/5;
+      grid-row: 1/2;
+      width: 64px;
+      height: 64px;
+      justify-self: flex-end;
+    }
+    .spotify-information {
+      grid-column: 1/5;
+      grid-row: 4/5;
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+    }
+    .current-status {
+      font-size: 16px;
+    }
+    .now-playing {
+      font-size: 26px;
+    }
+    .song-artist {
+      font-size: 16px;
+    }
+  }
+  @media (rotation) {
+    .card--rotation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .rotation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      row-gap: 4px;
+    }
+    .rotation-grid-left {
+      grid-row: 2/3;
+      justify-self: center;
+    }
+    .rotation-shoe {
+      font-size: 22px;
+      text-align: center;
+    }
+    .shoe-image {
+      width: 224px;
+      height: 124px;
+    }
+    .rotation-grid-right {
+      left: 0;
+    }
+    .rotation-grid-right {
+      grid-row: 1/2;
+      margin-top: -10px;
+    }
+  }
+  @media (socials) {
+    .social-media-logo {
+      height: 60px;
+      width: 60px;
+    }
+  }
+  @media (projects) {
+    .card--project-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    .project-name-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .project-builtwith-container {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: flex-end;
+    }
+    .project--helper {
+      text-align: end;
+    }
+    .project-preview-container {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      height: 141px;
+      width: 282px;
+    }
+    .project-preview-image {
+      transform: translate(0px);
+      height: 141px;
+      width: 282px;
+    }
+    .project-btn-container {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      margin-top: 34px;
+      font-size: 18px;
+      font-weight: 500;
+      width: 18ch;
+    }
+    .donate-btn {
+      margin-top: 58px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+w/24PX MARGIN
+390PX ---> 374PX
+COLUMNS: 2(151PX)
+ROWS:   20(151PX)
+*/
+@media() {
+  @media (body) {
+    .container {
+      max-width: 374px;
+      padding: 0 24px;
+    }
+    .grid {
+      grid-template-columns: repeat(2, 151px);
+      grid-template-rows: repeat(23, 151px);
+    }
+    .card--intro,
+    .card--running,
+    .card--learning,
+    .card--spotify,
+    .card--rotation,
+    .card--github,
+    .card--twitter,
+    .card--instagram,
+    .card--linkedin,
+    .card--youtube,
+    .card--ryos,
+    .card--recipely,
+    .card--donate {
+      padding: 24px;
+    }
+    .heading-secondary {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .heading-secondary-mobile {
+      align-self: center;
+      justify-self: center;
+    }
+    .heading-secondary--less-margin {
+      margin-bottom: 0;
+    }
+    .subheading {
+      font-size: 11.5px;
+    }
+  }
+  @media (header) {
+    .header {
+      display: grid;
+      max-width: 288px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: auto;
+      gap: 32px;
+      padding: 0;
+      margin-bottom: 74px;
+    }
+    .toggle-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .filters-primary {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-self: center;
+      position: relative;
+    }
+    .filters-list {
+      font-size: 14px;
+    }
+    .filter {
+      padding: 7px 14px;
+    }
+    [data-filter='media'] {
+      display: none;
+    }
+    .nav-btn {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    .nav-cta {
+      font-size: 15px;
+      padding: 6.5px 13px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 44px;
+      margin-top: 0px;
+      margin-left: -4px;
+      text-align: start;
+    }
+    .intro-subheading {
+      font-size: 24px;
+      margin-top: 4px;
+      margin-bottom: 6px;
+    }
+    .intro-text {
+      font-size: 15px;
+      width: 30ch;
+      margin-left: 2px;
+      margin-bottom: 16px;
+      text-align: start;
+      align-self: start;
+      line-height: 1.3;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 76px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      /* font-size: 13.5px;
+      padding: 6px 12px; */
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.3;
+      --mapbox-icon-size: 0.23;
+      --mobile-device: 1;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 326px;
+      height: 326px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 32px;
+    }
+    .filters-container-secondary {
+      padding: 4px 5px 4px 5px;
+    }
+    .filter-list-secondary {
+      font-size: 14px;
+    }
+    .filter-secondary {
+      padding: 7px 14px;
+      margin-bottom: 24px;
+    }
+    .statistics-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 17px;
+    }
+    .statistic-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .statistic-block:nth-child(5) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .statistic-block:nth-child(5) .running-statistic,
+    .statistic-block:nth-child(6) .running-statistic {
+      margin-bottom: 0px;
+    }
+    .running-statistic {
+      font-size: 22px;
+      margin-bottom: 24px;
+    }
+  }
+  @media (learning) {
+    .card--learning {
+      display: flex;
+      flex-direction: column;
+    }
+    .learning-container-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .learning-container {
+      display: grid;
+      padding: 0;
+      border-bottom: none;
+    }
+    .learning-container:first-of-type {
+      padding: 0;
+    }
+    .learning-container:last-child {
+      padding: 0;
+    }
+    .learning-header {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 18px;
+      margin-bottom: 10px;
+    }
+    .logo-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+    .logo-helper {
+      flex-direction: row;
+      margin-right: 0px;
+    }
+    .learning-text-container {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      display: flex;
+      width: 19ch;
+      justify-self: center;
+    }
+    .learning-course {
+      font-size: 14.6px;
+      text-align: center;
+    }
+    .learning-status {
+      justify-self: center;
+      margin: 0 0 0 0;
+    }
+    .learning-container:nth-child(3) .learning-status {
+      padding-top: 16.88px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      column-gap: 0px;
+    }
+    .song-artwork {
+      grid-column: 1/3;
+      grid-template-rows: 1/3;
+    }
+    #spotify-artwork {
+      width: 139px;
+      height: 139px;
+    }
+    .spotify-logo {
+      grid-column: 4/5;
+      grid-row: 1/2;
+      width: 64px;
+      height: 64px;
+      justify-self: flex-end;
+    }
+    .spotify-information {
+      grid-column: 1/5;
+      grid-row: 4/5;
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+    }
+    .current-status {
+      font-size: 16px;
+    }
+    .now-playing {
+      font-size: 26px;
+    }
+    .song-artist {
+      font-size: 16px;
+    }
+  }
+  @media (rotation) {
+    .card--rotation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .rotation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      row-gap: 4px;
+    }
+    .rotation-grid-left {
+      grid-row: 2/3;
+      justify-self: center;
+    }
+    .rotation-shoe {
+      font-size: 22px;
+      text-align: center;
+    }
+    .shoe-image {
+      width: 224px;
+      height: 124px;
+    }
+    .rotation-grid-right {
+      left: 0;
+    }
+    .rotation-grid-right {
+      grid-row: 1/2;
+      margin-top: -10px;
+    }
+  }
+  @media (socials) {
+    .social-media-logo {
+      height: 60px;
+      width: 60px;
+    }
+  }
+  @media (projects) {
+    .card--project-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    .project-name-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .project-builtwith-container {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: flex-end;
+    }
+    .project--helper {
+      text-align: end;
+    }
+    .project-preview-container {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      height: 141px;
+      width: 282px;
+    }
+    .project-preview-image {
+      transform: translate(0px);
+      height: 141px;
+      width: 282px;
+    }
+    .project-btn-container {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      margin-top: 34px;
+      font-size: 18px;
+      font-weight: 500;
+      width: 18ch;
+    }
+    .donate-btn {
+      margin-top: 58px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+374PX ---> 360PX
+COLUMNS: 2(144PX)
+ROWS:   17(144PX)
+*/
+@media() {
+  @media (body) {
+    .container {
+      max-width: 360px;
+      padding: 0 24px;
+    }
+    .grid {
+      grid-template-columns: repeat(2, 144px);
+      grid-template-rows: repeat(23, 144px);
+    }
+    .card--intro,
+    .card--running,
+    .card--learning,
+    .card--spotify,
+    .card--rotation,
+    .card--github,
+    .card--twitter,
+    .card--instagram,
+    .card--linkedin,
+    .card--youtube,
+    .card--ryos,
+    .card--recipely,
+    .card--donate {
+      padding: 24px;
+    }
+    .heading-secondary {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .heading-secondary-mobile {
+      align-self: center;
+      justify-self: center;
+    }
+    .heading-secondary--less-margin {
+      margin-bottom: 0;
+    }
+    .subheading {
+      font-size: 11.5px;
+    }
+  }
+  @media (header) {
+    .header {
+      display: grid;
+      max-width: 288px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: auto;
+      gap: 32px;
+      padding: 0;
+      margin-bottom: 74px;
+    }
+    .toggle-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .filters-primary {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-self: center;
+      position: relative;
+    }
+    .filters-list {
+      font-size: 14px;
+    }
+    .filter {
+      padding: 7px 14px;
+    }
+    [data-filter='media'] {
+      display: none;
+    }
+    .nav-btn {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    .nav-cta {
+      font-size: 15px;
+      padding: 6.5px 13px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 42px;
+      margin-top: 0px;
+      margin-left: -2px;
+      text-align: start;
+    }
+    .intro-subheading {
+      font-size: 20px;
+      margin-top: 4px;
+      margin-bottom: 6px;
+    }
+    .intro-text {
+      font-size: 14.5px;
+      width: 30ch;
+      margin-left: 0px;
+      margin-bottom: 16px;
+      text-align: start;
+      align-self: start;
+      line-height: 1.3;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 56px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      /* font-size: 13.5px;
+      padding: 6px 12px; */
+      font-size: 14.5px;
+      padding: 7px 14px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.3;
+      --mapbox-icon-size: 0.23;
+      --mobile-device: 1;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 312px;
+      height: 312px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 32px;
+    }
+    .filters-container-secondary {
+      padding: 4px 5px 4px 5px;
+    }
+    .filter-list-secondary {
+      font-size: 14px;
+    }
+    .filter-secondary {
+      padding: 7px 14px;
+      margin-bottom: 24px;
+    }
+    .statistics-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 17px;
+    }
+    .statistic-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .statistic-block:nth-child(5) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .statistic-block:nth-child(5) .running-statistic,
+    .statistic-block:nth-child(6) .running-statistic {
+      margin-bottom: 0px;
+    }
+    .running-statistic {
+      font-size: 22px;
+      margin-bottom: 18px;
+    }
+  }
+  @media (learning) {
+    .card--learning {
+      display: flex;
+      flex-direction: column;
+    }
+    .learning-container-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .learning-container {
+      display: grid;
+      padding: 0;
+      border-bottom: none;
+    }
+    .learning-container:first-of-type {
+      padding: 0;
+    }
+    .learning-container:last-child {
+      padding: 0;
+    }
+    .learning-header {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 14px;
+      margin-bottom: 10px;
+    }
+    .logo-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+    .logo-helper {
+      flex-direction: row;
+      margin-right: 0px;
+    }
+    .learning-text-container {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      display: flex;
+      width: 19ch;
+      justify-self: center;
+    }
+    .learning-course {
+      font-size: 14px;
+      text-align: center;
+    }
+    .learning-status {
+      justify-self: center;
+      margin: 0 0 0 0;
+    }
+    .learning-container:nth-child(3) .learning-status {
+      padding-top: 16.88px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      column-gap: 0px;
+    }
+    .song-artwork {
+      grid-column: 1/3;
+      grid-template-rows: 1/3;
+    }
+    #spotify-artwork {
+      width: 132px;
+      height: 132px;
+    }
+    .spotify-logo {
+      grid-column: 4/5;
+      grid-row: 1/2;
+      width: 54px;
+      height: 54px;
+      justify-self: flex-end;
+    }
+    .spotify-information {
+      grid-column: 1/5;
+      grid-row: 4/5;
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+    }
+    .current-status {
+      font-size: 16px;
+    }
+    .now-playing {
+      font-size: 24px;
+    }
+    .song-artist {
+      font-size: 16px;
+    }
+  }
+  @media (rotation) {
+    .card--rotation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .rotation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      row-gap: 4px;
+    }
+    .rotation-grid-left {
+      grid-row: 2/3;
+      justify-self: center;
+    }
+    .rotation-shoe {
+      font-size: 22px;
+      text-align: center;
+    }
+    .shoe-image {
+      width: 212px;
+      height: 120px;
+    }
+    .rotation-grid-right {
+      left: 0;
+    }
+    .rotation-grid-right {
+      grid-row: 1/2;
+      margin-top: -10px;
+    }
+  }
+  @media (socials) {
+    .social-media-logo {
+      height: 55px;
+      width: 55px;
+    }
+  }
+  @media (projects) {
+    .card--project-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    .project-name-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .project-builtwith-container {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: flex-end;
+    }
+    .project--helper {
+      text-align: end;
+    }
+    .project-preview-container {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      height: 132px;
+      width: 264px;
+    }
+    .project-preview-image {
+      transform: translate(0px);
+      height: 132px;
+      width: 264px;
+    }
+    .project-btn-container {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 15px;
+      padding: 7px 14px;
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      margin-top: 34px;
+      font-size: 18px;
+      font-weight: 500;
+      width: 18ch;
+    }
+    .donate-btn {
+      margin-top: 58px;
+    }
+    .donate-cta {
+      font-size: 13.5px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* 
+360PX ---> 300PX
+COLUMNS: 2(128PX)
+ROWS:   20(128PX)
+*/
+@media() {
+  @media (body) {
+    .container {
+      max-width: 300px;
+      padding: 0 16px;
+    }
+    .grid {
+      grid-template-columns: repeat(2, 128px);
+      grid-template-rows: repeat(23, 128px);
+      column-gap: 12px;
+      row-gap: 12px;
+    }
+    .card--intro,
+    .card--running,
+    .card--learning,
+    .card--spotify,
+    .card--rotation,
+    .card--github,
+    .card--twitter,
+    .card--instagram,
+    .card--linkedin,
+    .card--youtube,
+    .card--ryos,
+    .card--recipely,
+    .card--donate {
+      padding: 16px;
+    }
+    .heading-secondary {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .heading-secondary-mobile {
+      align-self: center;
+      justify-self: center;
+    }
+    .heading-secondary--less-margin {
+      margin-bottom: 0;
+    }
+    .subheading {
+      font-size: 11px;
+    }
+  }
+  @media (header) {
+    .header {
+      display: grid;
+      max-width: 272px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: auto;
+      gap: 32px;
+      padding: 0;
+      margin-bottom: 74px;
+    }
+    .toggle-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .filters-primary {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      justify-self: center;
+      position: relative;
+    }
+    .filters-list {
+      font-size: 14px;
+    }
+    .filter {
+      padding: 6px 12px;
+    }
+    [data-filter='media'] {
+      display: none;
+    }
+    .nav-btn {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+    .nav-cta {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  @media (introduction) {
+    .intro-heading {
+      font-size: 36px;
+      margin-top: 0px;
+      margin-left: -8px;
+      text-align: start;
+    }
+    .intro-subheading {
+      font-size: 19px;
+      margin-top: 4px;
+      margin-bottom: 0px;
+    }
+    .intro-text {
+      font-size: 13.5px;
+      width: 29ch;
+      margin-left: 0px;
+      margin-bottom: 10px;
+      text-align: start;
+      align-self: start;
+      line-height: 1.3;
+    }
+    .intro-text--placeholder-margin {
+      margin-bottom: 56px;
+    }
+    .intro-btn {
+      margin-top: 10px;
+    }
+    .intro-cta {
+      /* font-size: 13.5px;
+      padding: 6px 12px; */
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+  }
+  @media (map) {
+    body {
+      --mapbox-zoom: 11.2;
+      --mapbox-icon-size: 0.2;
+      --mobile-device: 1;
+    }
+  }
+  @media (photos) {
+    .photo {
+      width: 268px;
+      height: 268px;
+    }
+  }
+  @media (running) {
+    .filters-secondary {
+      margin-bottom: 32px;
+    }
+    .filters-container-secondary {
+      padding: 4px 5px 4px 5px;
+    }
+    .filter-list-secondary {
+      font-size: 14px;
+    }
+    .filter-secondary {
+      padding: 6px 12px;
+      margin-bottom: 24px;
+    }
+    .statistics-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+      column-gap: 17px;
+    }
+    .statistic-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .statistic-block:nth-child(5) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .statistic-block:nth-child(5) .running-statistic,
+    .statistic-block:nth-child(6) .running-statistic {
+      margin-bottom: 0px;
+    }
+    .running-statistic {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+  }
+  @media (learning) {
+    .card--learning {
+      display: flex;
+      flex-direction: column;
+    }
+    .learning-container-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .learning-container {
+      display: grid;
+      padding: 0;
+      border-bottom: none;
+    }
+    .learning-container:first-of-type {
+      padding: 0;
+    }
+    .learning-container:last-child {
+      padding: 0;
+    }
+    .learning-header {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+      margin-top: 14px;
+      margin-bottom: 4px;
+    }
+    .logo-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+    .logo-helper {
+      flex-direction: row;
+      margin-right: 0px;
+    }
+    .learning-text-container {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      display: flex;
+      width: 19ch;
+      justify-self: center;
+    }
+    .learning-course {
+      font-size: 13.5px;
+      text-align: center;
+    }
+    .learning-status {
+      font-size: 11px;
+      justify-self: center;
+      margin: 0 0 0 0;
+    }
+    .learning-container:nth-child(2) .learning-status {
+      margin-top: auto;
+    }
+    .learning-container:nth-child(3) .learning-status {
+      padding-top: 16.88px;
+    }
+  }
+  @media (spotify) {
+    .card--spotify {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      column-gap: 0px;
+    }
+    .song-artwork {
+      grid-column: 1/3;
+      grid-template-rows: 1/3;
+    }
+    #spotify-artwork {
+      width: 110px;
+      height: 110px;
+    }
+    .spotify-logo {
+      grid-column: 4/5;
+      grid-row: 1/2;
+      width: 48px;
+      height: 48px;
+      justify-self: flex-end;
+    }
+    .spotify-information {
+      grid-column: 1/5;
+      grid-row: 4/5;
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+    }
+    .current-status {
+      font-size: 16px;
+    }
+    .now-playing {
+      font-size: 24px;
+    }
+    .song-artist {
+      font-size: 16px;
+    }
+  }
+  @media (rotation) {
+    .card--rotation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .rotation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      row-gap: 4px;
+    }
+    .rotation-grid-left {
+      grid-row: 2/3;
+      justify-self: center;
+    }
+    .rotation-shoe {
+      font-size: 18px;
+      text-align: center;
+    }
+    .shoe-image {
+      width: 190px;
+      height: 106px;
+    }
+    .rotation-grid-right {
+      left: 0;
+    }
+    .rotation-grid-right {
+      grid-row: 1/2;
+      margin-top: -10px;
+    }
+  }
+  @media (socials) {
+    .social-media-logo {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  @media (projects) {
+    .card--project-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    .project-name-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .project-builtwith-container {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: flex-end;
+    }
+    .project--helper {
+      text-align: end;
+    }
+    .project-preview-container {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      height: 118px;
+      width: 236px;
+    }
+    .project-preview-image {
+      transform: translate(0px);
+      height: 118px;
+      width: 236px;
+    }
+    .project-btn-container {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+    .project-btn {
+      margin-top: 8px;
+    }
+    .project-cta {
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+  }
+  @media (donate) {
+    .donate-text {
+      margin-top: 34px;
+      font-size: 16px;
+      font-weight: 500;
+      width: 21ch;
+    }
+    .donate-btn {
+      margin-top: 34px;
+    }
+    .donate-cta {
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+/* BODY */
+/* HEADER */
+/* INTRODUCTION */
+/* MAP */
+/* PHOTOS */
+/* RUNNING */
+/* LEARNING */
+/* SPOTIFY */
+/* ROTATION */
+/* SOCIALS */
+/* PROJECTS */
+/* donate */
