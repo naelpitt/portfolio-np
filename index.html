@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nael.Dev</title>
+    <meta
+      name="description"
+      content="Welcome to Nael's Portfolio"
+    />
+
+    <link rel="icon" href="/img/moon-64x64.png" />
+    <link rel="apple-touch-icon" href="/img/moon-apple.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"
+    ></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="toggle-container">
+        <div class="switch">
+          <div class="toggle">
+            <ion-icon class="toggle-icon sun" name="sunny"></ion-icon>
+            <ion-icon class="toggle-icon moon" name="moon"></ion-icon>
+                  </div>
+                </main>
+              </div>
+            </body>
+          </html>
+        </div>
+      </div>
+      <nav class="filters-primary">
+        <div class="filters-container-main">
+          <ul class="filters-list">
+            <li class="filter active" data-filter="all">All</li>
+            <li class="filter" data-filter="about">Profile</li>
+            <li class="filter" data-filter="projects">Projects</li>
+            <li class="filter" data-filter="media">Socials</li>
+          </ul>
+        </div>
+      </nav>
+      <a class="nav-btn" href="mailto:naelpitt@gmail.com">
+        <span class="nav-cta">Contact</span>
+      </a>
+    </header>
+    <div class="container">
+      <main>
+        <div class="grid">
+
+
+          <!-- INTRODUCTION -->
+          <div class="card card--intro" id="card--intro--all">
+            <h1 class="intro-heading">Nael Pitt</h1>
+            <h1 class="intro-subheading">
+              Software Developer</bold>
+            </h1>
+            <div
+              class="intro-text-content intro-text--active"
+              id="intro-text-all"
+            >
+              <p class="intro-text">
+                Junior Dev with a strong foundation in programming and software development principles.
+                Dedicated to continuous growth and building innovative solutions.
+              </p>
+            </div>
+            <div class="intro-text-content" id="intro-text-about">
+              <p class="intro-text intro-text--helper">
+                Junior Dev with a strong foundation in programming and software development principles.
+                Proficient in HTML, CSS, JavaScript, Python and SQL, I am eager to learn new technologies and write clean, efficient code.
+              </p>
+              <p class="intro-text intro-text--helper intro-text--placeholder-margin">
+              Passionate about technology and innovation, I thrive in team environments and enjoy 
+              contributing to meaningful projects. Committed to continuous learning, I aim to build scalable, user-friendly
+              applications that enhance user experiences.
+              </p>
+              <p class="intro-text intro-text--helper">
+                I am currently working on a data analysis platform that tracks and monitors football player performance, compares
+                stats to their current market value, and assigns a grade based on their ability relative to that value.
+                This project allows me to apply data analysis techniques to provide insights that help assess players' potential and identify
+                players that are currently under valued by the market.
+              </p>
+
+            </div>
+            <div class="intro-btn-container">
+              <button
+              class="intro-btn intro-btn-primary"
+              id="btn-see-my-work"
+              onclick="document.querySelector('.filter[data-filter=\'projects\']').click();"
+              >
+              <span class="intro-cta intro-cta-primary">See my work</span>
+              </button>
+                <button
+                class="intro-btn intro-btn-secondary"
+                id="btn-learn-more"
+                onclick="document.querySelector('.filter[data-filter=\'about\']').click();"
+                >
+                <span class="intro-cta intro-cta-secondary">Learn more</span>
+                </button>
+            </div>
+          </div>
+
+
+          <!-- MAP -->
+          <div class="card--map" id="card--map--all" tabindex="-1">
+            <div id="map" tabindex="-1">
+            </div>
+          </div>
+
+
+          <!-- PHOTOS -->
+          <div class="card--photos" id="card--photos--all">
+            <div class="slider">
+              <img
+                class="photo slide slide--1"
+                src="img/me-pic.jpg"
+                alt="alt"
+              />
+              <img
+                class="photo slide slide--2"
+                src="img/capy.jpg"
+                alt="alt"
+                loading="lazy"
+              />
+              <img
+                class="photo slide slide--3"
+                src="img/footy.jpg"
+                alt="alt"
+                loading="lazy"
+              />
+              <img
+                class="photo slide slide--4"
+                src="img/doggs.jpg"
+                alt="alt"
+                loading="lazy"
+              />
+              <img
+                class="photo slide slide--5"
+                src="img/young-me.jpg"
+                alt="alt"
+                loading="lazy"
+              />
+            </div>
+            <button class="slider-btn slider-btn--left">
+              <ion-icon
+                class="button-icon button-icon--left"
+                name="chevron-back-outline"
+              ></ion-icon>
+            </button>
+            <button class="slider-btn slider-btn--right">
+              <ion-icon
+                class="button-icon button-icon--right"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </button>
+            <div class="dots"></div>
+          </div>
+
+
+          <!-- Skill Set -->
+          <div class="card card--skills" id="card--skills--all">
+            <h2
+              class="heading-secondary heading-secondary-mobile heading-secondary--more-margin"
+            >
+              Skill Set 
+            </h2>
+            <nav class="filters-secondary">
+              <div class="filters-container-secondary">
+                <ul class="filter-list-secondary">
+                  <li class="filter-secondary filter-secondary--active" data-filter="Traits">🙋🏻‍♂️</li>
+                  <li class="filter-secondary" data-filter="Technology">👨🏻‍💻</li>
+                  <li class="filter-secondary" data-filter="Communication">📢</li>
+                  <li class="filter-secondary" data-filter="Creative">🎨</li>
+                  <li class="filter-secondary" data-filter="Accomplishments">⭐</li>
+                  <!-- <li class="filter-secondary" data-filter="all">All</li> -->
+                </ul>
+              </div>
+            </nav>
+            <div class="filter-secondary-content filter-content--Communication">
+              <div class="skills-container">
+                <div class="statistic-block">
+                  <p class="running-metric subheading">Communication</p>
+                  <p class="running-statistic">I’ve developed strong communication skills through years in sales, customer service, football and online
+                    team games, honing my ability to collaborate, strategize and work effectively with others.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="filter-secondary-content filter-content--Technology">
+              <div class="skills-container">
+                <div class="statistic-block">
+                  <p class="running-metric subheading">Technology</p>
+                  <p class="running-statistic">Years of hands-on experience has given me a deep understanding of computers and software.
+                    My early fascination with technology has sharpened my problem-solving skills and fueled my drive to create and improve digital experiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="filter-secondary-content filter-content--Traits">
+              <div class="skills-container">
+                <div class="statistic-block">
+                  <p class="running-metric subheading">Traits + Values</p>
+                    <ul class="running-statistic" style="list-style-type:none;">
+                    <li><strong>Persistence</strong> – Committed to overcoming challenges and continuous improvement.</li>
+                    <li><strong>Drive</strong> – Passionate about learning, growing, and achieving excellence.</li>
+                    <li><strong>Ethics</strong> – Guided by integrity, honesty, and a sense of responsibility.</li>
+                    <li><strong>Ingenuity</strong> – Analytical thinker who enjoys tackling complex issues.</li>
+                    <li><strong>Adaptability</strong> – Quick to learn new technologies and adapt to changing environments.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="filter-secondary-content filter-content--Creative">
+              <div class="skills-container">
+                <div class="statistic-block">
+                  <p class="running-metric subheading">Creative</p>
+                  <p class="running-statistic">I am a creative thinker who enjoys exploring new ideas and innovative solutions to problems.
+                    Whether in coding, gaming, or everyday challenges, I approach tasks with curiosity and a fresh perspective,
+                    always looking for ways to improve and optimize outcomes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="filter-secondary-content filter-content--Accomplishments"
+            >
+              <div class="skills-container">
+                <div class="statistic-block">
+                  <p class="running-metric subheading">Accomplishments</p>
+                    <ul class="running-statistic" style="list-style-type:none;">
+                    <li><strong>Self-Taught Developer</strong> – Built skills through research and experimentation.</li>
+                    <li><strong>Multiple Player of the Year Awards</strong> – Recognized for outstanding football performance.</li>
+                    <li><strong>Mentor & Coach</strong> – Trusted to guide and support colleagues.</li>
+                    <li><strong>Key Role in Business Launch</strong> – Helped market and establish a thriving private hire company.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- LEARNING PATH -->
+          <div class="card card--learning" id="card--learning--all">
+            <h2
+              class="heading-secondary heading-secondary-mobile heading-secondary--less-margin"
+            >
+              Learning Path
+            </h2>
+            <div class="learning-container-mobile">
+              <div class="learning-container">
+                <div class="learning-header">
+                  <!-- ICON -->
+                  <div class="logo-container logo-helper logo-helper--margin">
+                    <img
+                      class="logo-vector"
+                      src="img/HTML5.png"
+                      alt="HTML Logo"
+                    />
+                    <img
+                      class="logo-vector"
+                      src="img/CSS3.png"
+                      alt="CSS Logo"
+                    />
+                    <!-- <ion-icon
+                      class="learning-logo logo-html"
+                      name="logo-html5"
+                    ></ion-icon>
+                    <ion-icon
+                      class="logo-css learning-logo"
+                      name="logo-css3"
+                    ></ion-icon> -->
+                  </div>
+                  <!-- ANCHORED TEXT -->
+                  <div class="learning-text-container">
+                    <a
+                      class="learning-course"
+                      href="https://www.freecodecamp.org/learn/full-stack-developer/"
+                      target="_blank"
+                      rel="noopener"
+                      >Build Responsive Websites with HTML and CSS</a
+                    >
+                  </div>
+                </div>
+                <p class="learning-status">freecodecamp.org</p>
+              </div>
+              <div class="learning-container">
+                <div class="learning-header">
+                  <!-- ICON -->
+                  <div class="logo-container logo-helper">
+                    <img
+                      class="logo-vector"
+                      src="img/python3.png"
+                      alt="Python Logo"
+                    />
+                  </div>
+                  <!-- ANCHORED TEXT -->
+                  <div class="learning-text-container">
+                    <a
+                      class="learning-course"
+                      href="https://www.theselftaughtprogrammer.io/"
+                      target="_blank"
+                      rel="noopener"
+                      >Programming in Python 3 </a
+                    >
+                  </div>
+                </div>
+                <p class="learning-status">The Self Taught Programmer - Cory Althoff</p>
+              </div>
+
+              <div class="learning-container">
+                <div class="learning-header">
+                  <!-- ICON -->
+                  <div class="logo-container logo-helper">
+                    <img
+                      class="logo-vector"
+                      src="img/Just-IT.png"
+                      alt="Just IT Logo"
+                    />
+                  </div>
+                  <!-- ANCHORED TEXT -->
+                  <div class="learning-text-container">
+                    <a
+                      class="learning-course"
+                      href="https://www.justit.co.uk/"
+                      target="_blank"
+                      rel="noopener"
+                      >Level 3 Software Development</a
+                    >
+                  </div>
+                </div>
+                <p class="learning-status">Just IT</p>
+              </div>
+
+              <div class="learning-container">
+                <div class="learning-header">
+                  <!-- ICON -->
+                  <div class="logo-container logo-helper">
+                    <img
+                      class="logo-vector"
+                      src="img/JavaScript.png"
+                      alt="Node.js Logo"
+                    />
+                    <img
+                      class="logo-vector"
+                      src="img/python3.png"
+                      alt="Express Logo"
+                    />
+                    <img
+                      class="logo-vector"
+                      src="img/powerplat.png"
+                      alt="MongoDB Logo"
+                    />
+                  </div>
+                  <!-- ANCHORED TEXT -->
+                  <div class="learning-text-container">
+                    <a
+                      class="learning-course"
+                      href=""
+                      target="_blank"
+                      rel="noopener"
+                      >Junior Developer</a
+                    >
+                  </div>
+                </div>
+                <p class="learning-status learning-status-helper">
+                  In Progress 12/02/2025
+                </p>
+              </div>
+            </div>
+          </div>
+<div class="card card--clock" id="card--clock--all">
+  <div class="clock-container">
+    <p class="clock-time" id="time"></p>
+    <p class="clock-day" id="day"></p>
+    <p class="clock-date" id="date"></p>
+    <p class="clock-greeting" id="greeting"></p>
+  </div>
+</div>
+          <!-- Completed Projects   MUST CHANGE SHOE-->
+          <div class="card card--proj" id="card--proj--all">
+            <h2 class="heading-secondary">Completed Projects</h2>
+            <div class="proj-grid">
+              <div class="proj-grid-left">
+                <div class="proj-container">
+                  <p
+                    class="proj-view proj-view--1 proj-view--active"
+                    data-shoe="1"
+                  >
+                    Web Scraper
+                  </p>
+                  <p class="proj-view proj-view--2" data-shoe="2">
+                    Budget Tracker
+                  </p>
+                  <p class="proj-view proj-view--3" data-shoe="3">
+                    Giphy API Site 
+                  </p>
+                  <p class="proj-view proj-view--4" data-shoe="4">
+                    Weather App 
+                  </p>
+                  <p class="proj-view proj-view--5" data-shoe="5">
+                    To Do List
+                  </p>
+                </div>
+              </div>
+              <div class="proj-grid-right">
+                <div
+                  class="proj-view-image proj-view-image--1 proj-view-image--active"
+                >
+                  <img
+                    class="view-image"
+                    src="img/web-scrape.png"
+                    alt="Screenshot of Web Scraper"
+                  />
+                </div>
+                <div class="proj-view-image proj-view-image--2">
+                  <img
+                    class="view-image"
+                    src="img\budget.png"
+                    alt="Screenshot of Cork It"
+                  />
+                </div>
+                <div class="proj-view-image proj-view-image--3">
+                  <img
+                    class="view-image"
+                    src="img/logo.png"
+                    alt="Screenshot of Giphy API Site"
+                  />
+                </div>
+                <div class="proj-view-image proj-view-image--4">
+                  <img
+                    class="view-image"
+                    src="img/SBweather.png"
+                    alt="Screenshot of Weather App"
+                  />
+                </div>
+                <div class="proj-view-image proj-view-image--5">
+                  <img
+                    class="view-image"
+                    src="img/cork-it.png"
+                    alt="Screenshot of To Do List"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- GITHUB -->
+          <div class="card card--github card--center" id="card--github--all">
+            <a
+              class="social-media-container"
+              href="https://github.com/naelpitt"
+              aria-label="Nael's github"
+              target="_blank"
+              rel="noopener"
+            ></a>
+            <ion-icon class="social-media-logo" name="logo-github"></ion-icon>
+            <a
+              class="social-media-btn"
+              href="https://github.com/naelpitt"
+              target="_blank"
+              rel="noopener"
+            >
+              <ion-icon
+                class="social-media-arrow"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </a>
+          </div>
+      
+        
+          <!-- LINKEDIN -->
+          <div
+            class="card card--linkedin card--center"
+            id="card--linkedin--all"
+          >
+            <a
+              class="social-media-container"
+              href="https://www.linkedin.com/in/ryanregiste"
+              aria-label="Nael's linkedin"
+              target="_blank"
+              rel="noopener"
+            ></a>
+            <ion-icon class="social-media-logo" name="logo-linkedin"></ion-icon>
+            <a
+              class="social-media-btn"
+              href=""
+              target="_blank"
+              rel="noopener"
+            >
+              <ion-icon
+                class="social-media-arrow"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </a>
+          </div>
+
+          <!-- SBgif -->
+          <div
+            class="card card--ryos card--project-mobile"
+            id="card--ryos--all"
+          >
+            <div class="project-name-container">
+              <p class="subheading">FEATURED PROJECT</p>
+              <h2 class="heading-secondary heading-secondary-helper">Gif Platform - Giphy API</h2>
+            </div>
+            <div class="project-builtwith-container">
+              <p class="subheading project--helper">BUILT WITH</p>
+              <div class="project-logo-cluster">
+                <div>
+                  <img
+                    class="logo-vector"
+                    src="https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="logo-vector"
+                    src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
+                    alt="HTML Logo"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="logo-vector"
+                    src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
+                    alt="CSS Logo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="project-preview-container">
+              <img
+                class="project-preview-image"
+                src="img/sbgif.png"
+                alt="alt"
+              />
+            </div>
+            <div class="project-btn-container">
+              <button
+                class="project-btn primary-project-btn"
+                id="btn-view-SBgif"
+              >
+                <span class="project-cta primary-project-cta"
+                  >View Project</span
+                >
+              </button>
+              <a
+                class="project-btn secondary-project-btn"
+                href="/projects/SBgif"
+                target="_self"
+                rel="noopener"
+              >
+              </a>
+            </div>
+          </div>
+          <!-- RECIPELY -->
+          <div
+            class="card card--recipely card--project-mobile"
+            id="card--recipely--all"
+          >
+            <div class="project-name-container">
+              <p class="subheading">CURRENT PROJECT</p>
+              <h2 class="heading-secondary heading-secondary-helper">
+                AI Player Analysis Tool
+              </h2>
+            </div>
+            <div class="project-builtwith-container">
+              <p class="subheading project--helper">BUILT WITH</p>
+              <div class="project-logo-cluster">
+                <div>
+                  <img
+                    class="logo-vector"
+                    src="img/python3.png"
+                    alt="React Logo"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="logo-vector"
+                    src="img/yolo.png"
+                    alt="Yolo Logo"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="logo-vector"
+                    src="img/opencv.png"
+                    alt="CSS Logo"
+                  />
+                </div>
+                <div>
+                </div>
+              </div>
+            </div>
+            <div class="project-preview-container">
+              <img
+                class="project-preview-image"
+                src="img/footy-data.png"
+                alt="alt"
+              />
+            </div>
+
+
+            <div class="project-btn-container">
+              <a
+                class="project-btn primary-project-btn"
+                href="https://recipe.ly/"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="project-cta primary-project-cta"
+                  >Coming Soon</span
+                >
+              </a>
+              <a
+                class="project-btn secondary-project-btn"
+                href=""
+                target="_self"
+                rel="noopener"
+              >
+              </a>
+            </div>
+            </div>
+          </div>
+              </div>
+            </div>
+            </div>
+            </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
